@@ -17,4 +17,4 @@ wheels/
 /tests/*.jsonl
 
 # Local generated files
-/docs/
+# /docs/ - Commented out to allow Chinese documentation
