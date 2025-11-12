@@ -51,19 +51,19 @@
     - 每个核心概念配一个简短示例
     - _需求: 2.3_
 
-- [ ] 5. 编写 API 参考文档 - 核心函数
-  - [ ] 5.1 创建 `docs/api-reference/README.md` 索引文件
+- [x] 5. 编写 API 参考文档 - 核心函数
+  - [x] 5.1 创建 `docs/api-reference/README.md` 索引文件
     - 列出所有 API 模块
     - 提供快速导航链接
     - _需求: 2.1, 2.4_
   
-  - [ ] 5.2 创建 `docs/api-reference/generate.md`
+  - [x] 5.2 创建 `docs/api-reference/generate.md`
     - 编写 `kosong.generate()` 函数的完整文档
     - 包含函数签名、参数说明、返回值、异常
     - 添加使用示例
     - _需求: 2.2, 2.3_
   
-  - [ ] 5.3 创建 `docs/api-reference/step.md`
+  - [x] 5.3 创建 `docs/api-reference/step.md`
     - 编写 `kosong.step()` 函数的完整文档
     - 包含 `StepResult` 类的文档
     - 添加使用示例
@@ -78,7 +78,7 @@
     - 为每个类添加使用示例
     - _需求: 2.2, 2.3, 2.4_
 
-- [-] 7. 编写 API 参考文档 - ChatProvider 模块
+- [ ] 7. 编写 API 参考文档 - ChatProvider 模块
   - [ ] 7.1 创建 `docs/api-reference/chat-provider.md`
     - 编写 `ChatProvider` 协议文档
     - 编写 `StreamedMessage` 协议文档
