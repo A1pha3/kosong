@@ -36,18 +36,18 @@
     - 链接到实践指南
     - _需求: 1.1, 1.5_
 
-- [ ] 4. 编写核心概念文档
-  - [ ] 4.1 创建 `docs/core-concepts.md` 文件
+- [x] 4. 编写核心概念文档
+  - [x] 4.1 创建 `docs/core-concepts.md` 文件
     - 编写"Kosong 是什么"部分
     - 解释核心概念：Message、ChatProvider、Tool/Toolset、Streaming、Async
     - _需求: 2.5_
   
-  - [ ] 4.2 添加概念图解
+  - [x] 4.2 添加概念图解
     - 使用 Mermaid 创建概念关系图
     - 创建工作流程图
     - _需求: 3.2_
   
-  - [ ] 4.3 为每个概念添加代码示例
+  - [x] 4.3 为每个概念添加代码示例
     - 每个核心概念配一个简短示例
     - _需求: 2.3_
 
@@ -78,7 +78,7 @@
     - 为每个类添加使用示例
     - _需求: 2.2, 2.3, 2.4_
 
-- [ ] 7. 编写 API 参考文档 - ChatProvider 模块
+- [-] 7. 编写 API 参考文档 - ChatProvider 模块
   - [ ] 7.1 创建 `docs/api-reference/chat-provider.md`
     - 编写 `ChatProvider` 协议文档
     - 编写 `StreamedMessage` 协议文档
