@@ -546,6 +546,7 @@ asyncio.run(persistent_chat())
 对于生产环境，建议使用数据库来存储对话历史：
 
 ```python
+import json
 import sqlite3
 from datetime import datetime
 
