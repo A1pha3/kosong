@@ -70,23 +70,23 @@
     - _需求: 2.2, 2.3_
 
 
-- [ ] 6. 编写 API 参考文档 - Message 模块
-  - [ ] 6.1 创建 `docs/api-reference/message.md`
+- [x] 6. 编写 API 参考文档 - Message 模块
+  - [x] 6.1 创建 `docs/api-reference/message.md`
     - 编写 `Message` 类文档
     - 编写 `ContentPart` 及其子类文档（TextPart、ThinkPart、ImageURLPart、AudioURLPart）
     - 编写 `ToolCall` 和 `ToolCallPart` 文档
     - 为每个类添加使用示例
     - _需求: 2.2, 2.3, 2.4_
 
-- [ ] 7. 编写 API 参考文档 - ChatProvider 模块
-  - [ ] 7.1 创建 `docs/api-reference/chat-provider.md`
+- [x] 7. 编写 API 参考文档 - ChatProvider 模块
+  - [x] 7.1 创建 `docs/api-reference/chat-provider.md`
     - 编写 `ChatProvider` 协议文档
     - 编写 `StreamedMessage` 协议文档
     - 编写 `TokenUsage` 数据类文档
     - 编写异常类型文档（APIConnectionError、APITimeoutError 等）
     - _需求: 2.2, 2.3_
   
-  - [ ] 7.2 添加内置 Provider 说明
+  - [x] 7.2 添加内置 Provider 说明
     - 说明 Kimi Provider 的使用
     - 说明 Mock Provider 的使用
     - 添加配置示例
