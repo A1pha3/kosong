@@ -92,8 +92,8 @@
     - 添加配置示例
     - _需求: 2.3, 7.1_
 
-- [ ] 8. 编写 API 参考文档 - Tooling 模块
-  - [ ] 8.1 创建 `docs/api-reference/tooling.md`
+- [x] 8. 编写 API 参考文档 - Tooling 模块
+  - [x] 8.1 创建 `docs/api-reference/tooling.md`
     - 编写 `Tool` 类文档
     - 编写 `CallableTool` 和 `CallableTool2` 抽象类文档
     - 编写 `ToolOk` 和 `ToolError` 文档
@@ -102,13 +102,13 @@
     - 为每个类添加使用示例
     - _需求: 2.2, 2.3, 2.4_
 
-- [ ] 9. 编写实践指南 - 多轮对话
-  - [ ] 9.1 创建 `docs/guides/README.md` 索引文件
+- [x] 9. 编写实践指南 - 多轮对话
+  - [x] 9.1 创建 `docs/guides/README.md` 索引文件
     - 列出所有实践指南
     - 提供简短说明
     - _需求: 4.1_
   
-  - [ ] 9.2 创建 `docs/guides/multi-turn-conversation.md`
+  - [x] 9.2 创建 `docs/guides/multi-turn-conversation.md`
     - 编写场景说明
     - 提供维护对话历史的完整示例
     - 说明上下文管理策略
@@ -116,15 +116,15 @@
     - 添加完整的聊天机器人示例
     - _需求: 4.2, 4.3_
 
-- [ ] 10. 编写实践指南 - 流式输出
-  - [ ] 10.1 创建 `docs/guides/streaming-output.md`
+- [x] 10. 编写实践指南 - 流式输出
+  - [x] 10.1 创建 `docs/guides/streaming-output.md`
     - 解释流式输出的工作原理
     - 提供实时显示响应内容的示例
     - 说明如何处理流式工具调用
     - 提供错误处理和重试示例
     - _需求: 4.2, 4.3_
 
-- [ ] 11. 编写实践指南 - 自定义工具
+- [-] 11. 编写实践指南 - 自定义工具
   - [ ] 11.1 创建 `docs/guides/custom-tools.md`
     - 提供创建简单工具的示例（使用 CallableTool2）
     - 说明工具参数验证
