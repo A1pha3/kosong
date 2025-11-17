@@ -133,8 +133,8 @@
     - 说明工具组合和复用
     - _需求: 4.2, 4.3_
 
-- [ ] 12. 编写实践指南 - 错误处理
-  - [ ] 12.1 创建 `docs/guides/error-handling.md`
+- [x] 12. 编写实践指南 - 错误处理
+  - [x] 12.1 创建 `docs/guides/error-handling.md`
     - 列出并说明常见异常类型
     - 提供 API 错误处理示例
     - 提供工具执行错误处理示例
@@ -142,8 +142,8 @@
     - 提供优雅降级示例
     - _需求: 4.2, 4.3, 4.4_
 
-- [ ] 13. 编写实践指南 - 生产部署
-  - [ ] 13.1 创建 `docs/guides/production-deployment.md`
+- [-] 13. 编写实践指南 - 生产部署
+  - [x] 13.1 创建 `docs/guides/production-deployment.md`
     - 提供性能优化建议
     - 说明并发处理策略
     - 说明日志和监控配置
@@ -152,20 +152,20 @@
     - _需求: 4.4, 4.5_
 
 
-- [ ] 14. 编写架构设计文档
-  - [ ] 14.1 创建 `docs/architecture.md`
+- [-] 14. 编写架构设计文档
+  - [x] 14.1 创建 `docs/architecture.md`
     - 编写整体架构说明
     - 使用 Mermaid 创建整体架构图
     - _需求: 3.1, 3.2_
   
-  - [ ] 14.2 编写消息流转机制说明
+  - [x] 14.2 编写消息流转机制说明
     - 说明消息的生命周期
     - 说明流式消息的合并策略
     - 说明 ContentPart 的多态处理
     - 说明 ToolCall 的增量构建
     - _需求: 3.3_
   
-  - [ ] 14.3 编写工具调用流程说明
+  - [x] 14.3 编写工具调用流程说明
     - 使用 Mermaid 创建工具调用时序图
     - 详细说明工具调用的各个阶段
     - _需求: 3.2, 3.3_
@@ -189,13 +189,13 @@
     - 说明如何扩展 ContentPart 类型
     - _需求: 3.4_
 
-- [ ] 15. 编写高级主题文档 - 自定义 ChatProvider
-  - [ ] 15.1 创建 `docs/advanced/README.md` 索引文件
+- [-] 15. 编写高级主题文档 - 自定义 ChatProvider
+  - [x] 15.1 创建 `docs/advanced/README.md` 索引文件
     - 列出所有高级主题
     - 提供简短说明
     - _需求: 3.1_
   
-  - [ ] 15.2 创建 `docs/advanced/custom-chat-provider.md`
+  - [x] 15.2 创建 `docs/advanced/custom-chat-provider.md`
     - 详细说明 ChatProvider 协议
     - 说明 StreamedMessage 实现要求
     - 说明消息格式转换
