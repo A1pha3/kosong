@@ -94,7 +94,7 @@ asyncio.run(main())
 
 **预期输出**：
 
-```
+```text
 AI: Python 是一种高级、解释型、面向对象的编程语言...（逐字显示）
 
 使用 Token: 150
@@ -303,7 +303,7 @@ asyncio.run(main())
 
 **预期输出**：
 
-```
+```text
 AI: 让我为你查询这两个城市的天气。
 [正在调用工具: get_weather]
 [参数: {"city": "北京"}]
@@ -400,7 +400,7 @@ asyncio.run(streaming_chat())
 
 **示例对话**：
 
-```
+```text
 你: 你好
 AI: 你好！很高兴见到你。有什么我可以帮助你的吗？（逐字显示）
 
@@ -824,7 +824,7 @@ asyncio.run(streaming_with_stats())
 
 **预期输出**：
 
-```
+```text
 AI: 深度学习的发展可以追溯到...（流式显示）
 
 --- 统计信息 ---

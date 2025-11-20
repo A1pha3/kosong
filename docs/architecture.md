@@ -689,7 +689,7 @@ tool_results = await result.tool_results()
 
 **并发执行的时间线**：
 
-```
+```text
 时间轴：
 t0: step() 开始
 t1: generate() 开始流式接收消息
@@ -742,7 +742,7 @@ async def tool_results(self) -> list[ToolResult]:
 并发执行可以显著提升性能，特别是在工具涉及 I/O 操作时：
 
 **串行执行**（假设每个工具耗时 1 秒）：
-```
+```text
 Tool #1: [====] 1s
 Tool #2:       [====] 1s
 Tool #3:             [====] 1s
@@ -750,7 +750,7 @@ Tool #3:             [====] 1s
 ```
 
 **并发执行**（Kosong 的实现）：
-```
+```text
 Tool #1: [====] 1s
 Tool #2: [====] 1s
 Tool #3: [====] 1s
@@ -888,7 +888,7 @@ async def tool_results(self) -> list[ToolResult]:
 
 假设有 3 个工具调用，工具 #2 执行失败：
 
-```
+```text
 Tool #1: 成功完成 → 返回结果
 Tool #2: 执行失败 → 抛出异常
 Tool #3: 仍在执行 → 被取消

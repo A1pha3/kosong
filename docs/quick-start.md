@@ -117,7 +117,7 @@ uv run python main.py
 
 **预期输出：**
 
-```
+```text
 AI 回复：
 Message(role='assistant', content=[TextPart(text='你好！我是 Kimi，一个由月之暗面科技开发的 AI 助手...')])
 
@@ -187,7 +187,7 @@ uv run python main.py
 
 你会看到 AI 的回复逐字显示，而不是等待全部生成完成后一次性输出：
 
-```
+```text
 Python 是一种高级编程语言...（逐字显示）
 
 完整消息：
@@ -286,7 +286,7 @@ uv run python main.py
 
 在这个示例中，AI 会识别出需要使用 `add` 工具，调用它来计算 123 + 456，然后将结果整合到回复中：
 
-```
+```text
 AI 回复：
 Message(role='assistant', content=[TextPart(text='好的，我来帮你计算。'), ToolCallPart(tool_call=ToolCall(id='call_123', name='add', arguments={'a': 123, 'b': 456}))])
 

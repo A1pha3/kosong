@@ -228,7 +228,7 @@ async def execute_tool(
         params = {"a": 1, "b": 2}
         result = await execute_tool(tool, params)
         print(result.output)  # "3"
-        ```
+```text
     """
     ...
 ```
@@ -523,7 +523,7 @@ git checkout -b fix/bug-description
    - `chore:` - 构建或辅助工具的变动
 
    示例：
-   ```
+```text
    feat: add support for Gemini chat provider
    
    - Implement GeminiChatProvider class

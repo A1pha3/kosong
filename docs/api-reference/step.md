@@ -144,7 +144,7 @@ asyncio.run(main())
 ```
 
 **输出：**
-```
+```text
 助手响应: [工具调用请求]
 工具调用数量: 1
 工具 add 返回: 5
@@ -285,7 +285,7 @@ asyncio.run(main())
 ```
 
 **输出：**
-```
+```text
 调用了 2 个工具：
   - get_weather: 北京：晴天，25°C
   - get_time: Asia/Shanghai 时区：14:30
@@ -375,7 +375,7 @@ asyncio.run(main())
 ```
 
 **输出：**
-```
+```text
 --- 步骤 1 ---
 调用了 1 个工具
   工具 calculate 返回: 45

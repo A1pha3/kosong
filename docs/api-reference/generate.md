@@ -105,7 +105,7 @@ asyncio.run(main())
 ```
 
 **输出：**
-```
+```text
 响应内容: Python 是一种高级、解释型、通用的编程语言...
 Token 使用: TokenUsage(input_other=25, output=150, input_cache_read=0, input_cache_creation=0)
 ```
@@ -253,7 +253,7 @@ asyncio.run(main())
 ```
 
 **输出：**
-```
+```text
 助手: 你好，小明！很高兴认识你。
 助手: 你叫小明。
 ```
